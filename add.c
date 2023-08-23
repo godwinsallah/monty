@@ -13,5 +13,6 @@ void add(Stack *stack)
 
 	int top_item = pop(stack);
 	int second_item = pop(stack);
+
 	push(stack, second_item + top_item);
 }

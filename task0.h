@@ -1,5 +1,6 @@
 #ifndef TASK0_H
 #define TASK0_H
+#include <string.h>
 
 #define STACK_SIZE 100
 
@@ -8,6 +9,7 @@
  * @items: An array to store stack elements
  * @top: The index of the top element in the stack
  */
+
 typedef struct Stack {
     int items[STACK_SIZE];
     int top;
@@ -22,5 +24,5 @@ void print_all(Stack *stack);
 void swap(Stack *stack);
 void add(Stack *stack);
 
-#endif /* STACK_H */
+#endif /* TASK0_H */
 
