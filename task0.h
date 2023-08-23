@@ -20,6 +20,7 @@ void push(Stack *stack, int value);
 int pop(Stack *stack);
 void print_all(Stack *stack);
 void swap(Stack *stack);
+void add(Stack *stack);
 
 #endif /* STACK_H */
 
