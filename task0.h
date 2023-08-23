@@ -19,6 +19,7 @@ int is_stack_full(Stack *stack);
 void push(Stack *stack, int value);
 int pop(Stack *stack);
 void print_all(Stack *stack);
+void swap(Stack *stack);
 
 #endif /* STACK_H */
 
